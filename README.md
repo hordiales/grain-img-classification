@@ -17,5 +17,6 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+   
 sudo apt-get update
 sudo apt-get install -y libgl1

@@ -19,8 +19,8 @@ def load_model():
         model = YOLO('best.pt')  # Asegúrate que el modelo está en el mismo directorio
         #model = solutions.Inference(model="best.pt",)  # you can use any model that Ultralytics support, i.e. YOLO11, YOLOv10)
         st.write("Modelo cargado correctamente")
-        st.write(f"Tipo de modelo: {type(model)}")
-        st.write(f"Modelo path: {model.ckpt_path}")
+        #st.write(f"Tipo de modelo: {type(model)}")
+        #st.write(f"Modelo path: {model.ckpt_path}")
         st.write(f"Clases detectadas: {model.names}")
         return model
     except Exception as e:
